@@ -51,9 +51,9 @@ function App() {
         {/* Banner */}
         <div>
           <div className="bg-[url('./assets/Rectangle-1.png')] bg-center h-[80vh] bg-no-repeat rounded-2xl flex flex-col justify-center items-center text-white space-y-4">
-            <h1 className='text-5xl lg:w-[60%] text-center font-semibold'>Discover an exceptional cooking class tailored for you!</h1>
+            <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold'>Discover an exceptional cooking class tailored for you!</h1>
             <p className='lg:w-[63%] text-center text-[#d9d8d8]'>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
-            <div className='flex mr-5 gap-3'>
+            <div className='flex lg:mr-5 gap-3'>
               <a href="">
                 <button className=' bg-[#0BE58A] border-0 font-bold text-[18px]  rounded-full w-44 h-[10vh] text-[#000000e7]'>Explore Now</button>
               </a>
@@ -65,14 +65,18 @@ function App() {
         </div>
       </header>
       <main className='mx- lg:mx-20'>
-        <div className='flex flex-col justify-center items-center w-[70%] text-center m-auto p-10 space-y-5'>
+        <div className='flex flex-col justify-center items-center lg:w-[70%] text-center m-auto p-10 space-y-5'>
           <h1 className='text-4xl font-bold '>Our Recipes</h1>
-          <p className='text-[18px] font-[500] text-[#050404ac]'>A recipe is a formula of ingredients and a list of instructions for creating prepared foods. It is used to control quality, quantity, and food costs in a foodservice operation.</p>
+          <p className='text-[18px] font-[500] text-[#050404ac] text-center'>A recipe is a formula of ingredients and a list of instructions for creating prepared foods. It is used to control quality, quantity, and food costs in a foodservice operation.</p>
         </div>
         {/* Cards */}
-        <div className='flex justify-between'>
-          <Recipes></Recipes>
-          <Cart></Cart>
+        <div className='flex flex-col lg:flex-row  justify-between'>
+          <div className='mr-10'>
+            <Recipes></Recipes>
+          </div>
+            <Cart></Cart>
+          <div>
+          </div>
         </div>
       </main>
       <footer>
