@@ -9,6 +9,8 @@ function App() {
 
   const [cart, setCart] = useState([])
   const [count, setCount] = useState(0)
+  const [shows, setShows] = useState([])
+
 
   const handleRecipesCart = recipe => {
     console.log(recipe)
@@ -23,6 +25,17 @@ function App() {
     }
   }
 
+
+  const handleDelete = (id, show) => {
+    console.log(id)
+    const cartDelete = cart.filter(item => item.id !== id.id);
+    setCart(cartDelete);
+
+    console.log(show)
+    const newShows = [...shows, show];
+    setShows(newShows);
+
+  }
 
   return (
     <>
@@ -89,11 +102,16 @@ function App() {
         </div>
         {/* Cards */}
         <div className='flex flex-col lg:flex-row  justify-between'>
-          <div className='mr-10'>
+          <div className='w-[60%] mr-5'>
             <Recipes handleRecipesCart={handleRecipesCart}></Recipes>
           </div>
-          <div>
-            <Cart cart={cart} count={count}></Cart>
+          <div className='w-[40%]'>
+            <Cart
+              cart={cart}
+              count={count}
+              handleDelete={handleDelete}
+              shows={shows}
+            ></Cart>
           </div>
         </div>
       </main>

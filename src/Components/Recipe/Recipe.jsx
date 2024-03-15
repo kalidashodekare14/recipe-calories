@@ -24,11 +24,11 @@ const Recipe = ({ recipe, handleRecipesCart }) => {
                         <div className="flex justify-between items-center">
                             <div className="flex gap-3 items-center">
                                 <CiClock2 />
-                                <p className="font-[400] text-[#000000ab]">{time}</p>
+                                <p className="font-[400] text-[#000000ab]">{time} minutes</p>
                             </div>
                             <div className="flex gap-3 items-center">
                                 <FaFire />
-                                <p className="font-[400] text-[#000000ab]">{calories}</p>
+                                <p className="font-[400] text-[#000000ab]">{calories} calories</p>
                             </div>
                         </div>
                         <div>

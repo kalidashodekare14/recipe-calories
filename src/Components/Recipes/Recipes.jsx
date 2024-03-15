@@ -16,7 +16,6 @@ const Recipes = ({handleRecipesCart}) => {
 
     return (
         <div>
-            <h1 className="text-4xl">Recipes</h1>
             <div className="grid grid-cols- lg:grid-cols-2 gap-5">
                 {
                     recipes.map(recipe => <Recipe 

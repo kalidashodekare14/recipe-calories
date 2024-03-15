@@ -13,8 +13,8 @@
           "Garlic",
           "Black pepper"
         ],
-        "time": "30 minutes",
-        "calories": "450 calories"
+        "time": 30,
+        "calories": 450
       },
       {
         "id": 2,
@@ -29,8 +29,8 @@
           "Garlic",
           "Parmesan cheese"
         ],
-        "time": "25 minutes",
-        "calories": "550 calories"
+        "time": 25,
+        "calories": 550
       },
       {
         "id": 3,
@@ -45,8 +45,8 @@
           "Balsamic vinegar",
           "Salt"
         ],
-        "time": "10 minutes",
-        "calories": "200 calories"
+        "time": 10,
+        "calories": 200
       },
       {
         "id": 4,
@@ -61,8 +61,8 @@
           "Vanilla extract",
           "Chocolate chips"
         ],
-        "time": "15 minutes",
-        "calories": "150 calories"
+        "time": 15,
+        "calories": 150
       },
       {
         "id": 5,
@@ -77,8 +77,8 @@
           "Extra virgin olive oil",
           "Salt"
         ],
-        "time": "20 minutes",
-        "calories": "300 calories"
+        "time": 20,
+        "calories": 300
       },
       {
         "id": 6,
@@ -93,8 +93,8 @@
           "Ginger",
           "Cooked rice or noodles"
         ],
-        "time": "20 minutes",
-        "calories": "250 calories"
+        "time": 16,
+        "calories": 250
       }
     ]
   }

@@ -1,8 +1,7 @@
-const Cart = ({ cart, count }) => {
+const Cart = ({ cart, count, handleDelete, shows }) => {
     console.log(cart)
     return (
-        <div>
-            <h1 className="text-4xl">Cart:</h1>
+        <div className="">
             <div className="border lg:p-3 rounded-2xl">
                 <div className="overflow-x-auto space-y-3">
                     <h1 className="text-2xl text-center font-semibold">Want to cook: {count}</h1>
@@ -22,12 +21,12 @@ const Cart = ({ cart, count }) => {
                             {
                                 cart.map((item, index) => (
                                     <tr key={item.id}>
-                                        <th className="text-[16px]">{index + 1}</th>
-                                        <td className="text-[16px]">{item.name}</td>
-                                        <td className="text-[16px]">{item.time}</td>
-                                        <td className="text-[16px]">{item.calories}</td>
+                                        <th className="text-[16px] text-[#000000b4] font-semibold">{index + 1}</th>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.name}</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.time}</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.calories}</td>
                                         <div>
-                                            <button className="btn bg-[#0BE58A]">Preparing</button>
+                                            <button onClick={() => handleDelete(item, item)} className="btn bg-[#0BE58A]">Preparing</button>
                                         </div>
                                     </tr>
                                 ))
@@ -50,22 +49,31 @@ const Cart = ({ cart, count }) => {
                         </thead>
                         <tbody>
                             {/* row 1 */}
-                            <tr>
-                                <th className="text-[16px]">1</th>
-                                <td className="text-[16px]">Chiken Caesar Salad</td>
-                                <td className="text-[16px]">20 minutes</td>
-                                <td className="text-[16px]">400 calories</td>
-                            </tr>
+
+                            {
+                                shows.map((item, index) => (
+                                    <tr key={item.id}>
+                                        <th className="text-[16px] text-[#000000b4] font-semibold">{index + 1}</th>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.name}</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.time}</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.calories}</td>
+                                    </tr>
+                                ))
+                            }
                         </tbody>
                     </table>
                     <div className="flex justify-end gap-3 mx-">
                         <div>
-                            <p className="text-[16px]">Total Time =
+                            <p className="text-[16px] text-[#000000b4] font-semibold">Total Time =
                                 <br />
-                                45 minutes</p>
+                                45 minutes
+                                {
+                                    cart.reduce((p,c)=> p+c.time,0)
+                                }
+                                </p>
                         </div>
                         <div>
-                            <p className="text-[16px]">Total Calories =
+                            <p className="text-[16px] text-[#000000b4] font-semibold">Total Calories =
                                 <br />
                                 1050 calories</p>
                         </div>
