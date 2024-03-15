@@ -1,4 +1,4 @@
-const Cart = ({ cart, count, handleDelete, shows }) => {
+const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
     console.log(cart)
     return (
         <div className="">
@@ -35,16 +35,16 @@ const Cart = ({ cart, count, handleDelete, shows }) => {
                     </table>
 
                 </div>
-                <div className="overflow-x-auto">
-                    <h1 className="text-2xl text-center font-semibold">Currently cooking: 02</h1>
+                <div className="overflow-x-auto space-y-3 mt-5">
+                    <h1 className="text-2xl text-center font-semibold">Currently cooking: {count2}</h1>
                     <table className="table">
                         {/* head */}
                         <thead>
                             <tr>
                                 <th></th>
-                                <th className="text-[16px]">Name</th>
-                                <th className="text-[16px]">Time</th>
-                                <th className="text-[16px]">Calories</th>
+                                <th className="text-[16px] ">Name</th>
+                                <th className="text-[16px] ">Time</th>
+                                <th className="text-[16px] ">Calories</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -62,20 +62,18 @@ const Cart = ({ cart, count, handleDelete, shows }) => {
                             }
                         </tbody>
                     </table>
-                    <div className="flex justify-end gap-3 mx-">
+                    <div className="flex justify-end gap-10">
                         <div>
-                            <p className="text-[16px] text-[#000000b4] font-semibold">Total Time =
-                                <br />
-                                45 minutes
-                                {
-                                    cart.reduce((p,c)=> p+c.time,0)
-                                }
+                            <p className="text-[16px] text-[#000000b4] font-semibold">Total Time = {
+                                    shows.reduce((p,c)=> p+c.time,0)
+                                } <br /> minutes
                                 </p>
                         </div>
-                        <div>
+                        <div className="mr-11">
                             <p className="text-[16px] text-[#000000b4] font-semibold">Total Calories =
-                                <br />
-                                1050 calories</p>
+                            {
+                                shows.reduce((p,c)=> p+c.calories,0)
+                            } <br /> calories</p>
                         </div>
                     </div>
 
