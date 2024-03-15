@@ -20,12 +20,12 @@ const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
 
                             {
                                 cart.map((item, index) => (
-                                    <tr key={item.id}>
+                                    <tr className="bg-[#F8F8F8]" key={item.id}>
                                         <th className="text-[16px] text-[#000000b4] font-semibold">{index + 1}</th>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.name}</td>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.time}</td>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.calories}</td>
-                                        <div>
+                                        <div className="mt-2">
                                             <button onClick={() => handleDelete(item, item)} className="btn bg-[#0BE58A]">Preparing</button>
                                         </div>
                                     </tr>
@@ -52,7 +52,7 @@ const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
 
                             {
                                 shows.map((item, index) => (
-                                    <tr key={item.id}>
+                                    <tr className="bg-[#F8F8F8]" key={item.id}>
                                         <th className="text-[16px] text-[#000000b4] font-semibold">{index + 1}</th>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.name}</td>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.time}</td>
