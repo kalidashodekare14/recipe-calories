@@ -3,8 +3,26 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { IoSearchOutline } from "react-icons/io5";
 import Recipes from './Components/Recipes/Recipes';
 import Cart from './Components/Cart/Cart';
+import { useState } from 'react';
 
 function App() {
+
+  const [cart, setCart] = useState([])
+  const [count, setCount] = useState(0)
+
+  const handleRecipesCart = recipe => {
+    console.log(recipe)
+    const isExits = cart.find(item => item.id === recipe.id)
+    if (!isExits) {
+      const newCount = count + 1;
+      setCount(newCount);
+      setCart([...cart, recipe])
+    }
+    else {
+      alert('Al Ready Exits')
+    }
+  }
+
 
   return (
     <>
@@ -72,16 +90,13 @@ function App() {
         {/* Cards */}
         <div className='flex flex-col lg:flex-row  justify-between'>
           <div className='mr-10'>
-            <Recipes></Recipes>
+            <Recipes handleRecipesCart={handleRecipesCart}></Recipes>
           </div>
-            <Cart></Cart>
           <div>
+            <Cart cart={cart} count={count}></Cart>
           </div>
         </div>
       </main>
-      <footer>
-
-      </footer>
     </>
   )
 }

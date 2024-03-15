@@ -1,10 +1,11 @@
-const Cart = () => {
+const Cart = ({ cart, count }) => {
+    console.log(cart)
     return (
         <div>
             <h1 className="text-4xl">Cart:</h1>
             <div className="border lg:p-3 rounded-2xl">
                 <div className="overflow-x-auto space-y-3">
-                    <h1 className="text-2xl text-center font-semibold">Want to cook: 01</h1>
+                    <h1 className="text-2xl text-center font-semibold">Want to cook: {count}</h1>
                     <table className="table">
                         {/* head */}
                         <thead>
@@ -17,15 +18,20 @@ const Cart = () => {
                         </thead>
                         <tbody>
                             {/* row 1 */}
-                            <tr>
-                                <th className="text-[16px]">1</th>
-                                <td className="text-[16px]">Chiken Caesar Salad</td>
-                                <td className="text-[16px]">20 minutes</td>
-                                <td className="text-[16px]">400 calories</td>
-                                <div>
-                                    <button className="btn bg-[#0BE58A]">Preparing</button>
-                                </div>
-                            </tr>
+
+                            {
+                                cart.map((item, index) => (
+                                    <tr key={item.id}>
+                                        <th className="text-[16px]">{index + 1}</th>
+                                        <td className="text-[16px]">{item.name}</td>
+                                        <td className="text-[16px]">{item.time}</td>
+                                        <td className="text-[16px]">{item.calories}</td>
+                                        <div>
+                                            <button className="btn bg-[#0BE58A]">Preparing</button>
+                                        </div>
+                                    </tr>
+                                ))
+                            }
                         </tbody>
                     </table>
 

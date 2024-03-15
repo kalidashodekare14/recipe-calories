@@ -1,0 +1,101 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "image_url": "https://i.ibb.co/QXCD5tn/spaghetti-carbonara-recipe-6.jpg",
+        "description": "Classic Italian pasta dish featuring a creamy sauce made with eggs, Parmesan cheese, and bacon or pancetta.",
+        "ingredients": [
+          "Spaghetti pasta",
+          "Eggs",
+          "Bacon or pancetta",
+          "Parmesan cheese",
+          "Garlic",
+          "Black pepper"
+        ],
+        "time": "30 minutes",
+        "calories": "450 calories"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Alfredo",
+        "image_url": "https://i.ibb.co/DM077qZ/Chicken-Alfredo-Linguine-recipe-2.png",
+        "description": "Rich and creamy pasta dish with tender chicken breast and a decadent Alfredo sauce.",
+        "ingredients": [
+          "Fettuccine pasta",
+          "Chicken breast",
+          "Heavy cream",
+          "Butter",
+          "Garlic",
+          "Parmesan cheese"
+        ],
+        "time": "25 minutes",
+        "calories": "550 calories"
+      },
+      {
+        "id": 3,
+        "name": "Caprese Salad",
+        "image_url": "https://i.ibb.co/j32fxGq/Caprese-Salad-main-1.jpg",
+        "description": "Simple yet elegant salad showcasing fresh tomatoes, mozzarella cheese, and basil, drizzled with balsamic glaze.",
+        "ingredients": [
+          "Tomatoes",
+          "Fresh mozzarella cheese",
+          "Fresh basil leaves",
+          "Extra virgin olive oil",
+          "Balsamic vinegar",
+          "Salt"
+        ],
+        "time": "10 minutes",
+        "calories": "200 calories"
+      },
+      {
+        "id": 4,
+        "name": "Chocolate Chip Cookies",
+        "image_url": "https://i.ibb.co/cxfHsd7/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg",
+        "description": "Classic homemade cookies loaded with chocolate chips, perfect for satisfying your sweet tooth.",
+        "ingredients": [
+          "All-purpose flour",
+          "Butter",
+          "Granulated sugar",
+          "Eggs",
+          "Vanilla extract",
+          "Chocolate chips"
+        ],
+        "time": "15 minutes",
+        "calories": "150 calories"
+      },
+      {
+        "id": 5,
+        "name": "Margarita Pizza",
+        "image_url": "https://i.ibb.co/rFDWXgt/SVs7-T2-Fb-Trm-Mp-Wri62f-U-Margarita-pizza.jpg",
+        "description": "Traditional Italian pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves, baked to perfection.",
+        "ingredients": [
+          "Pizza dough",
+          "Tomato sauce",
+          "Fresh mozzarella cheese",
+          "Fresh basil leaves",
+          "Extra virgin olive oil",
+          "Salt"
+        ],
+        "time": "20 minutes",
+        "calories": "300 calories"
+      },
+      {
+        "id": 6,
+        "name": "Vegetable Stir-Fry",
+        "image_url": "https://i.ibb.co/2NfvdMw/Asian-stirfried-vegetables.jpg",
+        "description": "Healthy and flavorful stir-fried mixed vegetables served with tofu or chicken over a bed of rice or noodles.",
+        "ingredients": [
+          "Mixed vegetables (e.g., bell peppers, broccoli, carrots, snap peas)",
+          "Firm tofu or chicken breast",
+          "Soy sauce",
+          "Garlic",
+          "Ginger",
+          "Cooked rice or noodles"
+        ],
+        "time": "20 minutes",
+        "calories": "250 calories"
+      }
+    ]
+  }
+  
