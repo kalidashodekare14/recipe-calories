@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "Name": "Christmas pie",
+        "url": "https://i.ibb.co/2qZPvf0/Christmas-pie-2ed9223.jpg",
+        "Description": "Combine a few key Christmas flavours here to make a pie that both children and adults will adore",
+        "Ingredients": [
+            "2 tbsp olive oil",
+            "1 onion, finely chopped",
+            "500g sausagemeat or skinned sausages",
+            "grated zest of 1 lemon",
+            "100g fresh white breadcrumbs",
+            "85g ready-to-eat dried apricots, chopped",
+        ],
+        "time": 16,
+        "calories": 250
+    },
+    {
+        "id": 2,
+        "Name": "Simmer-&-stir Christmas cake",
+        "url": "https://i.ibb.co/93vLWjc/recipe-image-legacy-id-559480-11-ec53335.jpg",
+        "Description": "An easy-to-make alternative to traditional Christmas cakes which requires no beating",
+        "Ingredients": [
+            "175g butter, chopped",
+            "200g dark muscovado sugar",
+            "750g luxury mixed dried fruit (one that includes mixed peel and glac\u00e9 cherries)",
+            "finely grated zest and juice of 1 orange",
+            "finely grated zest of 1 lemon",
+            "85g macadamia nut"
+        ],
+        "time": 20,
+        "calories": 550
+    },
+    {
+        "id": 3,
+        "Name": "Christmas cupcakes",
+        "url": "https://i.ibb.co/93vLWjc/recipe-image-legacy-id-559480-11-ec53335.jpg",
+        "Description": "These beautiful and classy little cakes make lovely gifts, and kids will enjoy decorating them too",
+        "Ingredients": [
+            "200g dark muscovado sugar",
+            "175g butter, chopped",
+            "700g luxury mixed dried fruit",
+            "2 tsp grated fresh root ginger",
+            "zest and juice 1 orange",
+            "100ml dark rum, brandy or orange juice"
+        ],
+        "time": 25,
+        "calories": 350
+    },
+    {
+        "id": 4,
+        "Name": "Christmas buns",
+        "url": "https://www.bbcgoodfood.com/recipes/1803633/christmas-buns",
+        "Description": "Paul Hollywood's fruit rolls can be made ahead then heated up before adding a glossy glaze and citrus icing",
+        "Ingredients": [
+            "500g strong white flour, plus extra for dusting",
+            "7g sachet fast-action dried yeast",
+            "300ml milk",
+            "40g unsalted butter, softened at room temperature",
+            "1 egg",
+            "vegetable oil, for greasing"
+        ],
+        "time": 15,
+        "calories": 250
+    },
+    {
+        "id": 5,
+        "Name": "Christmas cupcakes",
+        "url": "https://www.bbcgoodfood.com/recipes/981634/christmas-cupcakes",
+        "Description": "Made these for the second time today, and I have to say they turned out great! I've got large muffin tins and the mixture made 15 muffins, will definetely make these again at christmas time and decorate festively.",
+        "Ingredients": [
+            "280g self-raising flour",
+            "175g golden caster sugar",
+            "175g unsalted butter, very soft",
+            "150g pot fat-free natural yogurt",
+            "1 tsp vanilla extract",
+            "3 eggs"
+        ],
+        "time": 30,
+        "calories": 300
+    },
+    {
+        "id": 6,
+        "Name": "Christmas slaw",
+        "url": "https://www.bbcgoodfood.com/recipes/890635/christmas-slaw",
+        "Description": "A nutty winter salad which is superhealthy, quick to prepare and finished with a light maple syrup dressing",
+        "Ingredients": [
+            "2 carrots, halved",
+            "100g pecans, roughly chopped",
+            "bunch spring onions, sliced",
+            "2 red peppers, deseeded and sliced",
+            "2 tbsp maple syrup",
+            "2 tsp Dijon mustard"
+        ],
+        "time": 18,
+        "calories": 150
+    }
+]

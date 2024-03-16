@@ -51,7 +51,7 @@ function App() {
   return (
     <>
       <div>
-        <header className='mx- lg:mx-20'>
+        <header className='mx- lg:mx-10'>
           {/* Navbar */}
           <nav>
             <div className="navbar bg-base-100 lg:m-5">
@@ -61,15 +61,10 @@ function App() {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                   </div>
                   <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <a>Parent</a>
-                      <ul className="p-2">
-                        <li><a>Submenu 1</a></li>
-                        <li><a>Submenu 2</a></li>
-                      </ul>
-                    </li>
-                    <li><a>Item 3</a></li>
+                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Home</a></li>
+                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Recipes</a></li>
+                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">About</a></li>
+                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Search</a></li>
                   </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl font-bold">Recipe Calories</a>
@@ -107,17 +102,17 @@ function App() {
             </div>
           </div>
         </header>
-        <main className='mx- lg:mx-20'>
+        <main className='mx- lg:mx-10'>
           <div className='flex flex-col justify-center items-center lg:w-[70%] text-center m-auto p-10 space-y-5'>
             <h1 className='text-4xl font-bold '>Our Recipes</h1>
             <p className='text-[18px] font-[500] text-[#050404ac] text-center'>A recipe is a formula of ingredients and a list of instructions for creating prepared foods. It is used to control quality, quantity, and food costs in a foodservice operation.</p>
           </div>
           {/* Cards */}
           <div className='flex flex-col lg:flex-row  justify-between'>
-            <div className='w-[60%] mr-5'>
+            <div className='lg:w-[60%] lg:mr-5'>
               <Recipes handleRecipesCart={handleRecipesCart}></Recipes>
             </div>
-            <div className='w-[40%]'>
+            <div className='lg:w-[40%]'>
               <Cart
                 cart={cart}
                 count={count}

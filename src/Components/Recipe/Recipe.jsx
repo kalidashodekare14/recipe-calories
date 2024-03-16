@@ -32,7 +32,7 @@ const Recipe = ({ recipe, handleRecipesCart }) => {
                             </div>
                         </div>
                         <div>
-                            <button onClick={()=> handleRecipesCart(recipe)} className="btn text-[20px] font-semibold rounded-full bg-[#0BE58A]">Want to Cook</button>
+                            <button onClick={()=> handleRecipesCart(recipe)} className="btn text-[18px] text-[#000000d2] font-bold rounded-full bg-[#0BE58A]">Want to Cook</button>
                         </div>
                     </div>
                 </div>
