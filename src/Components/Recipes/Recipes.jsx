@@ -8,7 +8,7 @@ const Recipes = ({handleRecipesCart}) => {
     const [recipes, setRecipes] = useState([])
 
     useEffect(() => {
-        fetch('Recipe.json')
+        fetch('Recipes.json')
             .then(res => res.json())
             .then(data => setRecipes(data));
     }, [])

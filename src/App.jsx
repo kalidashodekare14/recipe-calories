@@ -28,21 +28,20 @@ function App() {
       toast.success("Cook Added");
     }
     else {
-      toast.warning("Already exit");
+      toast.warning("Already exist");
     }
   }
 
 
   const handleDelete = (id, show) => {
-    console.log(id)
-
+    // console.log(id)
 
     const cartDelete = cart.filter(item => item.id !== id.id);
     setCart(cartDelete);
     toast.success("Preparing Success");
-    console.log(show)
-    const mainus = count - 1
-    setCount(mainus)
+    // console.log(show);
+    const countWant = count - 1
+    setCount(countWant)
     const newCount2 = count2 + 1;
     setCount2(newCount2)
     const newShows = [...shows, show];
@@ -91,14 +90,14 @@ function App() {
           {/* Banner */}
           <div>
             <div className="bg-[url('./assets/Rectangle-1.png')] bg-center h-[80vh] bg-no-repeat rounded-2xl flex flex-col justify-center items-center text-white space-y-4">
-              <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold'>Discover an exceptional cooking class tailored for you!</h1>
-              <p className='lg:w-[63%] text-center text-[#d9d8d8]'>Learn and Master Basic Programming, Data Structures, Algorithm, OOP, Database and solve 500+ coding problems to become an exceptionally well world-class Programmer.</p>
+              <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold fonts-lexend'>Discover an exceptional cooking class tailored for you!</h1>
+              <p className='lg:w-[63%] text-center text-[#d9d8d8] fonts-lexend'>Indulge in our diverse, easy-to-make, and delicious recipes. Elevate your culinary skills or share unique cooking experiences with loved ones.</p>
               <div className='flex lg:mr-5 gap-3'>
                 <a href="">
-                  <button className=' bg-[#0BE58A] border-0 font-bold text-[18px]  rounded-full w-44 h-[10vh] text-[#000000e7]'>Explore Now</button>
+                  <button className=' bg-[#0BE58A] border-0 font-bold text-[18px]  rounded-full w-44 h-[10vh] text-[#000000e7] fonts-lexend'>Explore Now</button>
                 </a>
                 <a href="">
-                  <button className=' text-[18px] font-semibold rounded-full w-44 h-[10vh] border '>Our Feedback</button>
+                  <button className=' text-[18px] font-semibold rounded-full w-44 h-[10vh] border fonts-lexend'>Our Feedback</button>
                 </a>
               </div>
             </div>
@@ -106,8 +105,8 @@ function App() {
         </header>
         <main className='mx- lg:mx-10'>
           <div className='flex flex-col justify-center items-center lg:w-[70%] text-center m-auto p-10 space-y-5'>
-            <h1 className='text-4xl font-bold '>Our Recipes</h1>
-            <p className='text-[18px] font-[500] text-[#050404ac] text-center'>A recipe is a formula of ingredients and a list of instructions for creating prepared foods. It is used to control quality, quantity, and food costs in a foodservice operation.</p>
+            <h1 className='text-4xl font-bold fonts-lexend'>Our Recipes</h1>
+            <p className='text-[18px] font-[500] text-[#050404ac] text-center fonts-lexend'>A recipe is a formula of ingredients and a list of instructions for creating prepared foods. It is used to control quality, quantity, and food costs in a foodservice operation.</p>
           </div>
           {/* Cards */}
           <div className='flex flex-col lg:flex-row  justify-between'>

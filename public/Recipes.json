@@ -1,89 +1,57 @@
-{
-    "recipes": [
-      {
-        "id": 1,
-        "name": "Spaghetti Carbonara",
-        "image_url": "https://i.ibb.co/QXCD5tn/spaghetti-carbonara-recipe-6.jpg",
-        "description": "Classic Italian pasta dish featuring a creamy sauce made with eggs, Parmesan cheese, and bacon or pancetta.",
-        "ingredients": [
-          "500 g Spaghetti",
-          "150 g Bacon or Pancetta (diced)",
-          "3-4 Eggs",
-          "1/2 cup Parmesan cheese (grated)"
-        ],
-        "time": 30,
-        "calories": 450
-      },
-      {
-        "id": 2,
-        "name": "Chicken Alfredo",
-        "image_url": "https://i.ibb.co/DM077qZ/Chicken-Alfredo-Linguine-recipe-2.png",
-        "description": "Rich and creamy pasta dish with tender chicken breast and a decadent Alfredo sauce.",
-        "ingredients": [
-          "500 g Pasta",
-          "250 g Chicken",
-          "1/2 cup Butter",
-          "1/2 cup All-purpose flour"
-        ],
-        "time": 25,
-        "calories": 550
-      },
-      {
-        "id": 3,
-        "name": "Caprese Salad",
-        "image_url": "https://i.ibb.co/j32fxGq/Caprese-Salad-main-1.jpg",
-        "description": "Simple yet elegant salad showcasing fresh tomatoes, mozzarella cheese, and basil, drizzled with balsamic glaze.",
-        "ingredients": [
-          "3-4 tomatoes",
-          "100 grams of mozzarella cheese",
-          "1/2 cup fresh basil leaves",
-          "2 tablespoons balsamic vinegar"
-        ],
-        "time": 10,
-        "calories": 200
-      },
-      {
-        "id": 4,
-        "name": "Chocolate Chip Cookies",
-        "image_url": "https://i.ibb.co/cxfHsd7/Nestle-Toll-House-Chocolate-Chip-Cookies-Recipe-crop.jpg",
-        "description": "Classic homemade cookies loaded with chocolate chips, perfect for satisfying your sweet tooth.",
-        "ingredients": [
-          "2 cups of flour",
-          "1 cup of sugar",
-          "1/2 cup butter",
-          "2 cups dark chocolate chips"
-        ],
-        "time": 15,
-        "calories": 150
-      },
-      {
-        "id": 5,
-        "name": "Margarita Pizza",
-        "image_url": "https://i.ibb.co/rFDWXgt/SVs7-T2-Fb-Trm-Mp-Wri62f-U-Margarita-pizza.jpg",
-        "description": "Traditional Italian pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves, baked to perfection.",
-        "ingredients": [
-          "250 g of pizza dough or pizza dough mix",
-          "1/2 cup tomato sauce",
-          "1-1.5 cups mozzarella cheese",
-          "1-2 tomatoes"
-        ],
-        "time": 20,
-        "calories": 300
-      },
-      {
-        "id": 6,
-        "name": "Vegetable Stir-Fry",
-        "image_url": "https://i.ibb.co/2NfvdMw/Asian-stirfried-vegetables.jpg",
-        "description": "Healthy and flavorful stir-fried mixed vegetables served with tofu or chicken over a bed of rice or noodles.",
-        "ingredients": [
-          "4-5 cups of prepared mixed vegetables",
-          "2-3 tbsp oil",
-          "Salt to taste",
-          "Black pepper powder"
-        ],
-        "time": 16,
-        "calories": 250
-      }
-    ]
-  }
+[
+    {
+      "id": 1,
+      "name": "Chicken Stir Fry",
+      "image": "https://i.ibb.co/wzwX1Xp/2-x-protein-spicy-thai-chicken-stir-fry-2d405dee2e6ea6cb0a0bfab6063dc013.jpg",
+      "description": "A delicious and easy-to-make chicken stir fry packed with flavors. Perfect for a quick weeknight dinner!",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+      "time": 30,
+      "calories": 320
+    },
+    {
+      "id": 2,
+      "name": "Spaghetti Carbonara",
+      "image": "https://i.ibb.co/vQQW016/FO1-D41-23785-s4x3.jpg",
+      "description": "Indulge in the classic Italian pasta dish - Spaghetti Carbonara. With a creamy sauce, crispy bacon, and savory cheese, it's a true comfort food favorite!",
+      "ingredients": ["400 g spaghetti", "200 g bacon", "4 eggs", "100 g Parmesan cheese"],
+      "time": 25,
+      "calories": 450
+    },
+    {
+      "id": 3,
+      "name": "Vegetable Curry",
+      "image": "https://i.ibb.co/z5L0mbQ/SES-mixed-vegetable-curry-1957913-03048999db714405bfe8614c975b8a44.jpg",
+      "description": "Warm up with a bowl of aromatic Vegetable Curry. Made with a blend of spices and creamy coconut milk, it's a hearty and satisfying meal!",
+      "ingredients": ["300 g mixed vegetables", "200 ml coconut milk", "2 tbsp curry paste", "100 g rice"],
+      "time": 40,
+      "calories": 280
+    },
+    {
+      "id": 4,
+      "name": "Grilled Salmon",
+      "image": "https://i.ibb.co/j8jY347/grilled-salmon-final-2.jpg",
+      "description": "Enjoy a healthy and flavorful Grilled Salmon dinner. Marinated in zesty lemon and fragrant herbs, it's a perfect dish for a summer barbecue!",
+      "ingredients": ["4 salmon fillets", "2 lemons", "Fresh herbs", "Olive oil"],
+      "time": 20,
+      "calories": 350
+    },
+    {
+      "id": 5,
+      "name": "Mushroom Risotto",
+      "image": "https://i.ibb.co/xzJyWRt/Lindseyeatsla-Mushroom-Risotto-9.jpg",
+      "description": "Indulge in creamy Mushroom Risotto, a comforting Italian rice dish bursting with earthy mushroom flavors. It's the ultimate comfort food!",
+      "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 onion", "1 liter vegetable broth"],
+      "time": 35,
+      "calories": 400
+    },
+    {
+      "id": 6,
+      "name": "Caprese Salad",
+      "image": "https://i.ibb.co/j32fxGq/Caprese-Salad-main-1.jpg",
+      "description": "Savor the freshness of summer with a delightful Caprese Salad. Juicy tomatoes, creamy mozzarella, and fragrant basil drizzled with extra virgin olive oil - it's a taste of Italy!",
+      "ingredients": ["4 tomatoes", "200 g fresh mozzarella", "Fresh basil leaves", "Extra virgin olive oil"],
+      "time": 15,
+      "calories": 250
+    }
+  ]
   
