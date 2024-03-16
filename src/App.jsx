@@ -35,9 +35,11 @@ function App() {
 
   const handleDelete = (id, show) => {
     console.log(id)
+
+
     const cartDelete = cart.filter(item => item.id !== id.id);
     setCart(cartDelete);
-
+    toast.success("Preparing Success");
     console.log(show)
     const mainus = count - 1
     setCount(mainus)
@@ -51,9 +53,9 @@ function App() {
   return (
     <>
       <div>
-        <header className='mx- lg:mx-10'>
+        <header className='lg:mx-10'>
           {/* Navbar */}
-          <nav>
+          <nav className='lg:-ml-8 lg:mr-5'>
             <div className="navbar bg-base-100 lg:m-5">
               <div className="navbar-start">
                 <div className="dropdown">
@@ -61,10 +63,10 @@ function App() {
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                   </div>
                   <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Home</a></li>
-                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Recipes</a></li>
-                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">About</a></li>
-                  <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Search</a></li>
+                    <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Home</a></li>
+                    <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Recipes</a></li>
+                    <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">About</a></li>
+                    <li><a className='font-[500] text-[15px] text-[#5B546A]' href="">Search</a></li>
                   </ul>
                 </div>
                 <a className="btn btn-ghost text-2xl font-bold">Recipe Calories</a>

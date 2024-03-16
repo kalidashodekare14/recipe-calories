@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
 import PropTypes from 'prop-types';
 
-
 const Recipes = ({handleRecipesCart}) => {
 
     const [recipes, setRecipes] = useState([])

@@ -18,8 +18,6 @@ const Recipe = ({ recipe, handleRecipesCart }) => {
                             <li className="font-[500] text-[#000000ab]">{ingredients[1]}</li>
                             <li className="font-[500] text-[#000000ab]">{ingredients[2]}</li>
                             <li className="font-[500] text-[#000000ab]">{ingredients[3]}</li>
-                            <li className="font-[500] text-[#000000ab]">{ingredients[4]}</li>
-                            <li className="font-[500] text-[#000000ab]">{ingredients[5]}</li>
                         </ul>
                         <div className="flex justify-between items-center">
                             <div className="flex gap-3 items-center">
