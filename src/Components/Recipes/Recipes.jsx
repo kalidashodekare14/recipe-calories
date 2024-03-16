@@ -8,9 +8,9 @@ const Recipes = ({handleRecipesCart}) => {
     const [recipes, setRecipes] = useState([])
 
     useEffect(() => {
-        fetch('Recipes.json')
+        fetch('Recipe.json')
             .then(res => res.json())
-            .then(data => setRecipes(data.recipes));
+            .then(data => setRecipes(data));
     }, [])
 
     return (
