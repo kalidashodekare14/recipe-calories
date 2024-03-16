@@ -10,7 +10,7 @@ const Recipe = ({ recipe, handleRecipesCart }) => {
                     <figure><img className="h-[50vh] w-[100%] rounded-2xl" src={image_url} alt="Shoes" /></figure>
                     <div className="card-body">
                         <h1 className="text-2xl font-semibold">{name}</h1>
-                        <p className="text-[16px] font-[500] text-[#000000ab]">{description}</p>
+                        <p className="text-[16px] font-[500] text-[#000000ab]">{description.slice(0, 70)}</p>
                         <hr />
                         <p className="text-[22px] font-[500]">Ingredients: {ingredients.length}</p>
                         <ul className="list-disc ml-5">

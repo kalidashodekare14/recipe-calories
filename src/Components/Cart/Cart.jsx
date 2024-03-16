@@ -55,8 +55,8 @@ const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
                                     <tr className="bg-[#F8F8F8]" key={item.id}>
                                         <th className="text-[16px] text-[#000000b4] font-semibold">{index + 1}</th>
                                         <td className="text-[16px] text-[#000000b4] font-semibold">{item.name}</td>
-                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.time}</td>
-                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.calories}</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.time} minutes</td>
+                                        <td className="text-[16px] text-[#000000b4] font-semibold">{item.calories} calories</td>
                                     </tr>
                                 ))
                             }
