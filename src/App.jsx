@@ -81,7 +81,7 @@ function App() {
               <div className="navbar-end space-x-3">
                 <div className='lg:flex justify-center items-center border pl-3 rounded-full hidden'>
                   <IoSearchOutline className='text-2xl' />
-                  <input type="text" placeholder="Search" className="input rounded-full  w-60 max-w-xs" />
+                  <input type="text" placeholder="Search" className="input rounded-full  w-60 " />
                 </div>
                 <a className='bg-[#0BE58A] p-2 rounded-full' href="#"><FaRegUserCircle className='text-4xl text-[#000000b7]' /></a>
               </div>
@@ -90,8 +90,8 @@ function App() {
           {/* Banner */}
           <div>
             <div className="bg-[url('./assets/Rectangle-1.png')] bg-center h-[80vh] bg-no-repeat rounded-2xl flex flex-col justify-center items-center text-white space-y-4">
-              <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold fonts-lexend'>Tailored culinary adventures for unique flavors.</h1>
-              <p className='lg:w-[63%] text-center text-[#d9d8d8] fonts-lexend'>Indulge in our diverse, easy-to-make, and delicious recipes. Elevate your culinary skills or share unique cooking experiences with loved ones.</p>
+              <h1 className='text-[26px] lg:text-5xl lg:w-[60%] text-center font-semibold fonts-lexend'>Tailored culinary adventures for unique flavors.</h1>
+              <p className='lg:w-[63%] text-center text-[20px] lg:text-[1xl] text-[#c4c4c4] fonts-lexend'>Indulge in our diverse, easy-to-make, and delicious recipes. Elevate your culinary skills or share unique cooking experiences with loved ones.</p>
               <div className='flex lg:mr-5 gap-3'>
                 <a href="">
                   <button className=' bg-[#0BE58A] border-0 font-bold text-[18px]  rounded-full w-44 h-[10vh] text-[#000000e7] fonts-lexend'>Explore Now</button>
@@ -110,7 +110,7 @@ function App() {
           </div>
           {/* Cards */}
           <div className='flex flex-col lg:flex-row  justify-between'>
-            <div className='lg:w-[60%] lg:mr-5'>
+            <div className='lg:w-[60%] lg:mr-5 mb-5'>
               <Recipes handleRecipesCart={handleRecipesCart}></Recipes>
             </div>
             <div className='lg:w-[40%]'>
