@@ -5,7 +5,7 @@ const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
         <div className="">
             <div className="border lg:p-3 rounded-2xl">
                 <div className="overflow-x-auto space-y-3">
-                    <h1 className="text-2xl text-center font-semibold fonts-lexend">Want to cook: {count}</h1>
+                    <h1 className="text-2xl text-[#000000c4] text-center font-semibold fonts-lexend">Want to cook: {count}</h1>
                     <table className="table">
                         {/* head */}
                         <thead>
@@ -37,7 +37,7 @@ const Cart = ({ cart, count, handleDelete, shows, count2 }) => {
 
                 </div>
                 <div className="overflow-x-auto space-y-3 mt-5">
-                    <h1 className="text-2xl text-center font-semibold">Currently cooking: {count2}</h1>
+                    <h1 className="text-2xl text-[#000000c4] text-center font-semibold fonts-lexend">Currently cooking: {count2}</h1>
                     <table className="table">
                         {/* head */}
                         <thead>

@@ -90,7 +90,7 @@ function App() {
           {/* Banner */}
           <div>
             <div className="bg-[url('./assets/Rectangle-1.png')] bg-center h-[80vh] bg-no-repeat rounded-2xl flex flex-col justify-center items-center text-white space-y-4">
-              <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold fonts-lexend'>Discover an exceptional cooking class tailored for you!</h1>
+              <h1 className='text-3xl lg:text-5xl lg:w-[60%] text-center font-semibold fonts-lexend'>Tailored culinary adventures for unique flavors.</h1>
               <p className='lg:w-[63%] text-center text-[#d9d8d8] fonts-lexend'>Indulge in our diverse, easy-to-make, and delicious recipes. Elevate your culinary skills or share unique cooking experiences with loved ones.</p>
               <div className='flex lg:mr-5 gap-3'>
                 <a href="">

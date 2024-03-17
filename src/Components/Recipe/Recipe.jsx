@@ -26,7 +26,7 @@ const Recipe = ({ recipe, handleRecipesCart }) => {
                                 <p className="font-[600] text-[#00000082] fira-sans">{time} minutes</p>
                             </div>
                             <div className="flex gap-3 items-center">
-                                <FaFire />
+                                <FaFire className="text-[#00000082]" />
                                 <p className="font-[600] text-[#00000082] fira-sans">{calories} calories</p>
                             </div>
                         </div>
